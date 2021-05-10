@@ -1,88 +1,146 @@
 h2 {
-    text-align: center;
+  text-align: center;
 }
 .wrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1080px;
-    border-right: solid;
-    border-left: solid;
-    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  border-right: solid;
+  border-left: solid;
+  text-align: center;
 }
 
 .area{
-    display: inline-block;
-    width: 520px;
-    height: 750px;
-    vertical-align: top;
+  display: inline-block;
+  width: 520px;
+  height: 750px;
+  vertical-align: top;
 }
 
 
 .pic {
-    width: 500px;
+  width: 500px;
 }
 
 .ta-No {
-    resize: none;
+  resize: none;
   width:70px;
   height:80px;
   font-size: 20px;
   line-height: 75px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Syareki {
-    resize: none;
+  resize: none;
   width:100px;
   height:30px;
   font-size: 20px;
   line-height: 25px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Haikiryou {
-    resize: none;
+  resize: none;
   width:100px;
   height:30px;
   font-size: 20px;
   line-height: 25px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Katashiki {
-    resize: none;
+  resize: none;
   width:120px;
   height:30px;
   font-size: 20px;
   line-height: 25px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Syodo {
-    resize: none;
-  width:60px;
+  resize: none;
+  width:70px;
   height:50px;
   font-size: 20px;
   line-height: 45px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Syamei {
-    resize: none;
+  resize: none;
   width:100px;
   height:50px;
   font-size: 20px;
   line-height: 45px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Keijou {
-    resize: none;
-  width:40px;
+  resize: none;
+  width:50px;
   height:50px;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 45px;
+  display: inline-block;
+  margin: 0px;
 }
 
 .ta-Grade {
-    resize: none;
+  resize: none;
   width:100px;
   height:50px;
   font-size: 20px;
   line-height: 45px;
 }
+
+.ta-Hyoukaten {
+  resize: none;
+  width:70px;
+  height:60px;
+  font-size: 20px;
+  line-height: 55px;
+}
+
+.ta-Naisou {
+  resize: none;
+  width:70px;
+  height:20px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+
+
+
+
+
+.top {
+  display: inline-block;
+}
+
+.top-center {
+  width: 80px;
+}
+
+
+.top-center {
+  width: 330px;
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 0;
+}
+
+.top-left {
+  width: 80px;
+}
+
+
+
