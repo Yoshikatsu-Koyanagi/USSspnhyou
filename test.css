@@ -1,0 +1,695 @@
+h2 {
+  text-align: center;
+  margin: 0;
+}
+.wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+
+  text-align: center;
+}
+
+.area{
+  display: inline-block;
+  width: 520px;
+  height: 750px;
+  vertical-align: top;
+  border: solid;
+}
+
+.inputs-area {
+  padding-top: 38px;
+
+}
+
+.pic {
+  width: 500px;
+}
+
+.ta-No {
+  resize: none;
+  width:70px;
+  height:80px;
+  font-size: 18px;
+  line-height: 75px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Syareki {
+  resize: none;
+  width:100px;
+  height:30px;
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Haikiryou {
+  resize: none;
+  width:100px;
+  height:30px;
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Katashiki {
+  resize: none;
+  width:120px;
+  height:30px;
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Syodo {
+  resize: none;
+  width:70px;
+  height:50px;
+  font-size: 15px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Syamei {
+  resize: none;
+  width:100px;
+  height:50px;
+  font-size: 15px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Keijou {
+  resize: none;
+  width:50px;
+  height:50px;
+  font-size: 15px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Grade {
+  resize: none;
+  width:100px;
+  height:50px;
+  font-size: 15px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Hyoukaten {
+  resize: none;
+  width:70px;
+  height:50px;
+  font-size: 15px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Naisou {
+  resize: none;
+  width:70px;
+  height:30px;
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.top-left {
+  width: 80px;
+  display: inline-block;
+}
+
+
+.top-center {
+  width: 330px;
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 0;
+  display: inline-block;
+}
+
+.top-right {
+  width: 80px;
+  display: inline-block;
+}
+
+
+
+
+.ta-Syaken {
+  resize: none;
+  width:200px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Soukou {
+  resize: none;
+  width:200px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Gensyoku {
+  resize: none;
+  width: 60px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Irogae {
+  resize: none;
+  width: 60px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-ColorNo {
+  resize: none;
+  width: 80px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Nenryou {
+  resize: none;
+  width: 130px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Naisousyoku {
+  resize: none;
+  width: 70px;
+  height:25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Nenshiki {
+  resize: none;
+  width: 50px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Yunyuukubun {
+  resize: none;
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Handle {
+  resize: none;
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Shift {
+  resize: none;
+  width: 110px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Reibou {
+  resize: none;
+  width: 110px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Shinsyaseibitechou {
+  resize: none;
+  width: 110px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Meigihenkoukigen {
+  resize: none;
+  width: 110px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Junseihin {
+  resize: none;
+  width: 150px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Sailspoint {
+  resize: none;
+  width: 150px;
+  height: 90px;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.second-left {
+  width: 210px;
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 0;
+  display: inline-block;
+}
+
+.second-center {
+  width: 120px;
+  display: inline-block;
+}
+
+.second-right {
+  width: 160px;
+  display: inline-block;
+}
+
+.second {
+  padding: 0px;
+}
+
+
+.ta-Recycle {
+  resize: none;
+  width: 105px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Jousyateiin {
+  resize: none;
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Sekisairyou {
+  resize: none;
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Cyuuijikou {
+  resize: none;
+  width: 245px;
+  height: 100px;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-TourokuNo {
+  resize: none;
+  width: 230px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-SyadaiNo {
+  resize: none;
+  width: 230px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-SerialNo {
+  resize: none;
+  width: 230px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0px;
+}
+
+
+.third-left {
+  width: 255px;
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.third-right {
+  width: 241px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.third {
+  margin-bottom: 150px;
+}
+
+
+.pic-area {
+  position: relative;
+}
+
+
+
+
+
+.No-inputted {
+  position: absolute;
+  width: 66px;
+  height: 74px;
+  top: 58px;
+  left: 41px;
+}
+
+.Syareki-inputted {
+  position: absolute;
+  width: 92px;
+  height: 34px;
+  top: 59px;
+  left: 113px;
+}
+
+.Haikiryou-inputted {
+  position: absolute;
+  width: 86px;
+  height: 34px;
+  top: 59px;
+  left: 205px;
+}
+
+.Katashiki-inputted {
+  position: absolute;
+  width: 129px;
+  height: 34px;
+  top: 59px;
+  left: 291px;
+}
+
+.Syodo-inputted {
+  position: absolute;
+  width: 53px;
+  height: 42px;
+  top: 92px;
+  left: 113px;
+}
+
+.Syamei-inputted {
+  position: absolute;
+  width: 94px;
+  height: 42px;
+  top: 92px;
+  left: 166px;
+}
+
+.Keijou-inputted {
+  position: absolute;
+  width: 31px;
+  height: 42px;
+  top: 92px;
+  left: 260px;
+}
+
+.Grade-inputted {
+  position: absolute;
+  width: 129px;
+  height: 42px;
+  top: 92px;
+  left: 291px;
+}
+
+.Hyoukaten-inputted {
+  position: absolute;
+  width: 63px; 
+  height: 55px;
+  top: 58px;
+  left: 427px;
+}
+
+.Naisou-inputted {
+  position: absolute;
+  width: 63px;
+  height: 24px;
+  top: 113px;
+  left: 427px;
+}
+
+.Syaken-inputted {
+  position: absolute;
+  width: 185px;
+  height: 20px;
+  top: 139px;
+  left: 41px;
+}
+
+.Soukou-inputted {
+  position: absolute;
+  width: 185px;
+  height: 25px;
+  top: 159px;
+  left: 41px;
+}
+
+.Gensyoku-inputted {
+  position: absolute;
+  width: 65px;
+  height: 27px;
+  top: 184px;
+  left: 41px;
+}
+
+.Irogae-inputted {
+  position: absolute;
+  width: 61px;
+  height: 27px;
+  top: 184px;
+  left: 106px;
+}
+
+.ColorNo-inputted {
+  position: absolute;
+  width: 59px;
+  height: 27px;
+  top: 184px;
+  left: 167px;
+}
+
+.Nenryou-inputted {
+  position: absolute;
+  width: 134px;
+  height: 21px;
+  top: 211px;
+  left: 41px;
+}
+
+.Naisousyoku-inputted {
+  position: absolute;
+  width: 51px;
+  height: 21px;
+  top: 211px;
+  left: 175px;
+}
+
+.Nenshiki-inputted {
+  position: absolute;
+  width: 55px;
+  height: 26px;
+  top: 234px;
+  left: 41px;
+}
+
+.Yunyuukubun-inputted {
+  position: absolute;
+  width: 77px;
+  height: 26px;
+  top: 234px;
+  left: 96px;
+}
+
+.Handle-inputted {
+  position: absolute;
+  width: 53px;
+  height: 26px;
+  top: 234px;
+  left: 173px;
+}
+
+.Shift-inputted {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  top: 139px;
+  left: 231px;
+}
+
+.Reibou-inputted {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  top: 165px;
+  left: 231px;
+}
+
+.Shinsyaseibitechou-inputted {
+  position: absolute;
+  width: 101px;
+  height: 35px;
+  top: 193px;
+  left: 231px;
+}
+
+.Meigihenkoukigen-inputted {
+  position: absolute;
+  width: 101px;
+  height: 30px;
+  top: 230px;
+  left: 231px;
+}
+
+.Junseihin-inputted {
+  position: absolute;
+  width: 153px;
+  height: 29px;
+  top: 139px;
+  left: 336px;
+}
+
+.Sailspoint-inputted {
+  position: absolute;
+  width: 153px;
+  height: 91px;
+  top: 169px;
+  left: 336px;
+}
+
+.Recycle-inputted {
+  position: absolute;
+  width: 107px;
+  height: 22px;
+  top: 261px;
+  left: 41px;
+}
+
+.Jousyateiin-inputted {
+  position: absolute;
+  width: 61px;
+  height: 22px;
+  top: 261px;
+  left: 148px;
+}
+
+.Sekisairyou-inputted {
+  position: absolute;
+  width: 62px;
+  height: 22px;
+  top: 261px;
+  left: 209px;
+}
+
+.Cyuuijikou-inputted {
+  position: absolute;
+  width: 230px;
+  height: 90px;
+  top: 285px;
+  left: 41px;
+}
+
+.TourokuNo-inputted {
+  position: absolute;
+  width: 213px;
+  height: 14.5px;
+  top: 261.5px;
+  left: 276px;
+}
+
+.SyadaiNo-inputted {
+  position: absolute;
+  width: 213px;
+  height: 15px;
+  top: 276px;
+  left: 276px;
+}
+
+.SerialNo-inputted {
+  position: absolute;
+  width: 213px;
+  height: 14.5px;
+  top: 291px;
+  left: 276px;
+}
