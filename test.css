@@ -19,11 +19,6 @@ h2 {
   border: solid;
 }
 
-.inputs-area {
-  padding-top: 38px;
-
-}
-
 .pic {
   width: 500px;
 }
@@ -126,6 +121,10 @@ h2 {
   line-height: 25px;
   display: inline-block;
   margin: 0px;
+}
+
+.top {
+  margin-top: 40px;
 }
 
 .top-left {
