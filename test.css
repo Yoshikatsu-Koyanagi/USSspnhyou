@@ -7,14 +7,13 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 1080px;
-
   text-align: center;
 }
 
 .area{
   display: inline-block;
   width: 520px;
-  height: 750px;
+  height: 740px;
   vertical-align: top;
   border: solid;
 }
@@ -417,7 +416,7 @@ h2 {
 }
 
 .third {
-  margin-bottom: 150px;
+  margin-bottom: 160px;
 }
 
 
@@ -426,8 +425,106 @@ h2 {
 }
 
 
+.ta-Nagasa {
+  resize: none;
+  width: 75px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0px;
+}
 
+.ta-Haba {
+  resize: none;
+  width: 75px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0px;
+}
 
+.ta-Takasa {
+  resize: none;
+  width: 75px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Kibousyuppin {
+  resize: none;
+  width: 225px;
+  height: 140px;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-KaiinNo {
+  resize: none;
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Syuppintenmei {
+  resize: none;
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Kiboukakaku {
+  resize: none;
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.ta-Startkakaku {
+  resize: none;
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.bottom-left {
+  width: 236px;
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.bottom-right {
+  width: 260px;
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.bottom {
+  margin-bottom: 5px;
+}
 
 .No-inputted {
   position: absolute;
@@ -691,4 +788,68 @@ h2 {
   height: 14.5px;
   top: 291px;
   left: 276px;
+}
+
+.Nagasa-inputted {
+  position: absolute;
+  width: 71px;
+  height: 17px;
+  top: 550px;
+  left: 21px;
+}
+
+.Haba-inputted {
+  position: absolute;
+  width: 71px;
+  height: 17px;
+  top: 550px;
+  left: 92px;
+}
+
+.Takasa-inputted {
+  position: absolute;
+  width: 71px;
+  height: 17px;
+  top: 550px;
+  left: 163px;
+}
+
+.Kibousyuppin-inputted {
+  position: absolute;
+  width: 213px;
+  height: 134px;
+  top: 570px;
+  left: 21px;
+}
+
+.KaiinNo-inputted {
+  position: absolute;
+  width: 249px;
+  height: 24px;
+  top: 581px;
+  left: 239px;
+}
+
+.Syuppintenmei-inputted {
+  position: absolute;
+  width: 249px;
+  height: 32px;
+  top: 605px;
+  left: 239px;
+}
+
+.Kiboukakaku-inputted {
+  position: absolute;
+  width: 249px;
+  height: 33px;
+  top: 637px;
+  left: 239px;
+}
+
+.Startkakaku-inputted {
+  position: absolute;
+  width: 249px;
+  height: 34px;
+  top: 670px;
+  left: 239px;
 }

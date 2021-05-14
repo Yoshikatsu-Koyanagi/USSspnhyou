@@ -1,6 +1,6 @@
 function changeColor(id){
   let obj = document.getElementById(id);
-  obj.style.backgroundColor = 'rgba(0,0,0,0.5)';  //背景色を赤にする
+  obj.style.backgroundColor = 'rgba(0,0,0,0.5)';  
 }
 
 function func1(id1, id2){
@@ -48,6 +48,14 @@ let array = [
   ["ta-TourokuNo", "TourokuNo-inputted"],
   ["ta-SyadaiNo", "SyadaiNo-inputted"],
   ["ta-SerialNo", "SerialNo-inputted"],
+  ["ta-Nagasa", "Nagasa-inputted"],
+  ["ta-Haba", "Haba-inputted"],
+  ["ta-Takasa", "Takasa-inputted"],
+  ["ta-Kibousyuppin", "Kibousyuppin-inputted"],
+  ["ta-KaiinNo", "KaiinNo-inputted"],
+  ["ta-Syuppintenmei", "Syuppintenmei-inputted"],
+  ["ta-Kiboukakaku", "Kiboukakaku-inputted"],
+  ["ta-Startkakaku", "Startkakaku-inputted"],
 ];
 
 window.addEventListener('DOMContentLoaded', function(){
