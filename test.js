@@ -59,7 +59,6 @@ let array = [
 ];
 
 window.addEventListener('DOMContentLoaded', function(){
-
   array.forEach(function(value) {
     id1 = value[0];
     id2 = value[1];
