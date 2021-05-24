@@ -10,50 +10,101 @@
 
     <div class="wrapper">
         <div class="inputs-area area">
-            <form method="post">
+            <form method="post" action="Home.php" autocomplete="off">
+
+                            
                 
                 <div class="top">
                     <div class="top-left">
-                        <textarea id="ta-No" class="ta-No" placeHolder="No." inputmode="numeric"></textarea>
+                        <textarea maxlength="5" id="ta-No" class="ta-No" placeHolder="No." oninput="checkForm('ta-No')" inputmode="numeric"></textarea>
                     </div>
                     <div class="top-center">
-                        <textarea id="ta-Syareki" class="ta-Syareki" placeHolder="車歴" ></textarea>
+                        <textarea id="ta-Syareki" class="ta-Syareki" placeHolder="車歴"></textarea>
                         <textarea id="ta-Haikiryou" class="ta-Haikiryou" placeHolder="排気量" inputmode="numeric"></textarea>
                         <textarea id="ta-Katashiki" class="ta-Katashiki" placeHolder="型式"></textarea>
                         <textarea id="ta-Syodo" class="ta-Syodo" placeHolder="初度"></textarea>
                         <textarea id="ta-Syamei" class="ta-Syamei" placeHolder="車名"></textarea>
                         <textarea id="ta-Keijou" class="ta-Keijou" placeHolder="形状"></textarea>
                         <textarea id="ta-Grade" class="ta-Grade" placeHolder="グレード"></textarea>
+                        <div class="radiobutton rb-2WD4WD">
+                            <input type="radio" id="ck_2WD" name="rb-2WD4WD"/>
+                            <label for="ck_2WD" id="lab_ck_2WD">2WD</label>
+                            <input type="radio" id="ck_4WD" name="rb-2WD4WD"/>
+                            <label for="ck_4WD" id="lab_ck_4WD">4WD</label>
+                        </div> 
+
                     </div>
-                    <div class="top-left">
-                        <textarea id="ta-Hyoukaten" class="ta-Hyoukaten" placeHolder="評価点" inputmode="decimal"></textarea>
+              
+                    <div class="top-right">
+                <!--    <textarea id="ta-Hyoukaten" class="ta-Hyoukaten" placeHolder="評価点" inputmode="decimal"></textarea>
                         <textarea id="ta-Naisou" class="ta-Naisou" placeHolder="内装"></textarea>
+                -->
                     </div>
+
+
                 </div>
 
                 <div class="second">
                     <div class="second-left">
                         <textarea id="ta-Syaken" class="ta-Syaken" placeHolder="車検"></textarea>
-                        <textarea id="ta-Soukou" class="ta-Soukou" placeHolder="走行" inputmode="numeric"></textarea>
+                        <textarea id="ta-Soukou" class="ta-Soukou" placeHolder="走行" oninput="checkForm('ta-Soukou')" inputmode="numeric"></textarea>
                         <textarea id="ta-Gensyoku" class="ta-Gensyoku" placeHolder="元色"></textarea>
                         <textarea id="ta-Irogae" class="ta-Irogae" placeHolder="色替"></textarea>
                         <textarea id="ta-ColorNo" class="ta-ColorNo" placeHolder="カラーNo."></textarea>
                         <textarea id="ta-Nenryou" class="ta-Nenryou" placeHolder="燃料"></textarea>
                         <textarea id="ta-Naisousyoku" class="ta-Naisousyoku" placeHolder="内装色"></textarea>
                         <textarea id="ta-Nenshiki" class="ta-Nenshiki" placeHolder="年式"></textarea>
-                        <textarea id="ta-Yunyuukubun" class="ta-Yunyuukubun" placeHolder="輸入区分"></textarea>
-                        <textarea id="ta-Handle" class="ta-Handle" placeHolder="ハンドル"></textarea>
+                        <!--<textarea id="ta-Yunyuukubun" class="ta-Yunyuukubun" placeHolder="輸入区分"></textarea>-->
+                        <div class="radiobutton rb-Yunyuukubun">
+                            <input type="radio" id="ck_Dealer" name="rb-Yunyuukubun"/>
+                            <label for="ck_Dealer" id="lab_ck_Dealer">ディーラー</label>
+                            <input type="radio" id="ck_Heikou" name="rb-Yunyuukubun"/>
+                            <label for="ck_Heikou" id="lab_ck_Heikou">並行</label>
+                        </div>
+                        <!--<textarea id="ta-Handle" class="ta-Handle" placeHolder="ハンドル"></textarea>-->
+                        <div class="radiobutton rb-Handle">
+                            <input type="radio" id="ck_Hidari" name="rb-handle"/>
+                            <label for="ck_Hidari" id="lab_ck_Hidari">左</label>
+                            <input type="radio" id="ck_Migi" name="rb-handle"/>
+                            <label for="ck_Migi" id="lab_ck_Migi">右</label>
+                        </div> 
+                        
                     </div>
                     <div class="second-center">
                         <textarea id="ta-Shift" class="ta-Shift" placeHolder="シフト"></textarea>
                         <textarea id="ta-Reibou" class="ta-Reibou" placeHolder="冷房"></textarea>
-                        <textarea id="ta-Shinsyaseibitechou" class="ta-Shinsyaseibitechou" placeHolder="新車整備手帳"></textarea>
+                        <!--<textarea id="ta-Shinsyaseibitechou" class="ta-Shinsyaseibitechou" placeHolder="新車整備手帳"></textarea>-->
+                        <div class="radiobutton rb-Shinsyaseibitechou">
+                            <input type="radio" id="ck_Ari" name="rb-Shinsyaseibitechou"/>
+                            <label for="ck_Ari" id="lab_ck_Ari">有</label>
+                            <input type="radio" id="ck_Nashi" name="rb-Shinsyaseibitechou"/>
+                            <label for="ck_Nashi" id="lab_ck_Nashi">無</label>
+                        </div>
                         <textarea id="ta-Meigihenkoukigen" class="ta-Meigihenkoukigen" placeHolder="名義変更期限"></textarea>
                     </div>
-
                     <div class="second-right">
-                        <textarea id="ta-Junseihin" class="ta-junseihin" placeHolder="純製品"></textarea>
-                        <textarea id="ta-Sailspoint" class="ta-Sailspoint" placeHolder="セールスポイント"></textarea>
+                        <!--<textarea id="ta-Junseihin" class="ta-junseihin" placeHolder="純製品"></textarea>
+                        -->
+                        <div class="checkbox cb-Junseihin">
+                                <input type="checkbox" id="ck_SR"/>
+                                <label for="ck_SR" id="lab_ck_SR">SR</label>
+                                <input type="checkbox" id="ck_JunAW"/>
+                                <label for="ck_JunAW" id="lab_ck_JunAW">純AW</label>
+                                <input type="checkbox" id="ck_PS"/>
+                                <label for="ck_PS" id="lab_ck_PS">PS</label>
+                                <input type="checkbox" id="ck_PW"/>
+                                <label for="ck_PW" id="lab_ck_PW">PW</label>
+                                <input type="checkbox" id="ck_Kawa"/>
+                                <label for="ck_Kawa" id="lab_ck_Kawa">カワ</label>
+                                <input type="checkbox" id="ck_TV"/>
+                                <label for="ck_TV" id="lab_ck_TV">TV</label>
+                                <input type="checkbox" id="ck_Navi"/>
+                                <label for="ck_Navi" id="lab_ck_Navi">ナビ</label>
+                                <input type="checkbox" id="ck_AirB"/>
+                                <label for="ck_AirB" id="lab_ck_AirB">エアB</label>
+                        </div>
+
+                         <textarea id="ta-Sailspoint" class="ta-Sailspoint" placeHolder="セールスポイント"></textarea>
                     </div>
                 </div>
                 
@@ -103,6 +154,8 @@
             <div class="Syamei-inputted" id="Syamei-inputted"></div>
             <div class="Keijou-inputted" id="Keijou-inputted"></div>
             <div class="Grade-inputted" id="Grade-inputted"></div>
+            <div class="twoWD-inputted" id="twoWD-inputted"></div>
+            <div class="fourWD-inputted" id="fourWD-inputted"></div>
             <div class="Hyoukaten-inputted" id="Hyoukaten-inputted"></div>
             <div class="Naisou-inputted" id="Naisou-inputted"></div>
             <div class="Syaken-inputted" id="Syaken-inputted"></div>
@@ -114,12 +167,25 @@
             <div class="Naisousyoku-inputted" id="Naisousyoku-inputted"></div>
             <div class="Nenshiki-inputted" id="Nenshiki-inputted"></div>
             <div class="Yunyuukubun-inputted" id="Yunyuukubun-inputted"></div>
+            <div class="Dealer-inputted" id="Dealer-inputted"></div>
+            <div class="Heikou-inputted" id="Heikou-inputted"></div>
             <div class="Handle-inputted" id="Handle-inputted"></div>
+            <div class="Hidari-inputted" id="Hidari-inputted"></div>
+            <div class="Migi-inputted" id="Migi-inputted"></div>
             <div class="Shift-inputted" id="Shift-inputted"></div>
-            <div class="Reibou-inputted" id="Reibou-inputted"></div>
+            <div class="Reibou-inputted" id="Reibou-inputted"></div>            
             <div class="Shinsyaseibitechou-inputted" id="Shinsyaseibitechou-inputted"></div>
+            <div class="Ari-inputted" id="Ari-inputted"></div>
+            <div class="Nashi-inputted" id="Nashi-inputted"></div>
             <div class="Meigihenkoukigen-inputted" id="Meigihenkoukigen-inputted"></div>
-            <div class="Junseihin-inputted" id="Junseihin-inputted"></div>
+            <div class="SR-inputted" id="SR-inputted"></div>
+            <div class="JunAW-inputted" id="JunAW-inputted"></div>
+            <div class="PS-inputted" id="PS-inputted"></div>
+            <div class="PW-inputted" id="PW-inputted"></div>
+            <div class="Kawa-inputted" id="Kawa-inputted"></div>
+            <div class="TV-inputted" id="TV-inputted"></div>
+            <div class="Navi-inputted" id="Navi-inputted"></div>
+            <div class="AirB-inputted" id="AirB-inputted"></div>
             <div class="Sailspoint-inputted" id="Sailspoint-inputted"></div>
             <div class="Recycle-inputted" id="Recycle-inputted"></div>
             <div class="Jousyateiin-inputted" id="Jousyateiin-inputted"></div>
@@ -136,8 +202,9 @@
             <div class="Syuppintenmei-inputted" id="Syuppintenmei-inputted"></div>
             <div class="Kiboukakaku-inputted" id="Kiboukakaku-inputted"></div>
             <div class="Startkakaku-inputted" id="Startkakaku-inputted"></div>
-        <div>
+        </div>
     </div>
+    
 </body>
 <script src="./test.js"></script>
 </html>

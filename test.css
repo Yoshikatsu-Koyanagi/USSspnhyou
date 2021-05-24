@@ -1,3 +1,7 @@
+:focus {
+  /*outline: none; */
+}
+
 h2 {
   text-align: center;
   margin: 0;
@@ -94,9 +98,9 @@ h2 {
 
 .ta-Grade {
   resize: none;
-  width:100px;
+  width:60px;
   height:50px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 45px;
   display: inline-block;
   margin: 0px;
@@ -220,7 +224,7 @@ h2 {
 
 .ta-Nenshiki {
   resize: none;
-  width: 50px;
+  width: 41px;
   height: 25px;
   font-size: 12px;
   line-height: 20px;
@@ -228,6 +232,7 @@ h2 {
   margin: 0px;
 }
 
+/*
 .ta-Yunyuukubun {
   resize: none;
   width: 80px;
@@ -236,8 +241,9 @@ h2 {
   line-height: 20px;
   display: inline-block;
   margin: 0px;
-}
+}*/
 
+/*
 .ta-Handle {
   resize: none;
   width: 70px;
@@ -247,6 +253,7 @@ h2 {
   display: inline-block;
   margin: 0px;
 }
+*/
 
 .ta-Shift {
   resize: none;
@@ -334,7 +341,7 @@ h2 {
   resize: none;
   width: 105px;
   height: 25px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 20px;
   display: inline-block;
   margin: 0px;
@@ -526,6 +533,7 @@ h2 {
   margin-bottom: 5px;
 }
 
+/*inputted*/
 .No-inputted {
   position: absolute;
   width: 66px;
@@ -584,26 +592,26 @@ h2 {
 
 .Grade-inputted {
   position: absolute;
-  width: 129px;
+  width: 102px;
   height: 42px;
   top: 92px;
   left: 291px;
 }
 
-.Hyoukaten-inputted {
+.twoWD-inputted {
   position: absolute;
-  width: 63px; 
-  height: 55px;
-  top: 58px;
-  left: 427px;
+  width: 27px;
+  height: 21px;
+  top: 92px;
+  left: 393px;
 }
 
-.Naisou-inputted {
+.fourWD-inputted {
   position: absolute;
-  width: 63px;
-  height: 24px;
+  width: 27px;
+  height: 21px;
   top: 113px;
-  left: 427px;
+  left: 393px;
 }
 
 .Syaken-inputted {
@@ -670,6 +678,23 @@ h2 {
   left: 41px;
 }
 
+.Dealer-inputted {
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  top: 234px;
+  left: 98px;
+}
+
+.Heikou-inputted {
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  top: 234px;
+  left: 148px;
+}
+
+/*
 .Yunyuukubun-inputted {
   position: absolute;
   width: 77px;
@@ -677,13 +702,31 @@ h2 {
   top: 234px;
   left: 96px;
 }
+*/
 
+/*
 .Handle-inputted {
   position: absolute;
   width: 53px;
   height: 26px;
   top: 234px;
   left: 173px;
+}*/
+
+.Hidari-inputted {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 234px;
+  left: 173px;
+}
+
+.Migi-inputted {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 234px;
+  left: 199px;
 }
 
 .Shift-inputted {
@@ -702,12 +745,28 @@ h2 {
   left: 231px;
 }
 
-.Shinsyaseibitechou-inputted {
+/*.Shinsyaseibitechou-inputted {
   position: absolute;
   width: 101px;
   height: 35px;
   top: 193px;
   left: 231px;
+}*/
+
+.Ari-inputted {
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  top: 193px;
+  left: 279px;
+}
+
+.Nashi-inputted {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 193px;
+  left: 306px;
 }
 
 .Meigihenkoukigen-inputted {
@@ -718,12 +777,77 @@ h2 {
   left: 231px;
 }
 
+/*
 .Junseihin-inputted {
   position: absolute;
   width: 153px;
   height: 29px;
   top: 139px;
   left: 336px;
+}*/
+
+.SR-inputted {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 139px;
+  left: 350px;
+}
+
+.JunAW-inputted {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 139px;
+  left: 385px;
+}
+
+.PS-inputted {
+  position: absolute;
+  width: 34px;
+  height: 14px;
+  top: 139px;
+  left: 420px;
+}
+
+.PW-inputted {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 139px;
+  left: 454px;
+}
+
+.Kawa-inputted {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 153px;
+  left: 350px;
+}
+
+.TV-inputted {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 153px;
+  left: 385px;
+}
+
+.Navi-inputted {
+  position: absolute;
+  width: 34px;
+  height: 14px;
+  top: 153px;
+  left: 420px;
+}
+
+.AirB-inputted {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 153px;
+  left: 454px;
 }
 
 .Sailspoint-inputted {
@@ -853,3 +977,165 @@ h2 {
   top: 670px;
   left: 239px;
 }
+
+/*rb-2WD4WD*/
+.rb-2WD4WD {
+width: 100%;
+  width: 39px;
+  height: 49px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rb-2WD4WD label {
+  width: 100%;
+height: 50%;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+/*rb-Yunyuukubun*/
+.rb-Yunyuukubun {
+  width: 100px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rb-Yunyuukubun label {
+  width: 50%;
+height: 100%;
+  font-size: 0.3px;
+  line-height: 24px;
+}
+
+/*rb-Handle*/
+.rb-Handle {
+  width: 58px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rb-Handle label {
+  width: 50%;
+height: 100%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/*rb-Shinsyaseibitechou*/
+.rb-Shinsyaseibitechou {
+  width: 108px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: top;
+  display: flex;
+  margin-left: 6px;
+}
+
+.rb-Shinsyaseibitechou label {
+  width: 50%;
+height: 100%;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/*radiobutton*/
+.radiobutton input[type='radio'] {
+position: absolute;
+z-index: -1;
+opacity: 0;  
+}
+
+.radiobutton label::before {
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+display: block;
+/*width: 30px;
+height: 15px;*/
+content: ' ';
+/*border: 2px solid #da3c41;*/
+}
+
+.radiobutton input[type='radio']:checked + label {
+color: #ffffff;
+}
+
+.radiobutton input[type='radio']:checked + label::before {
+top: 0;
+width: 100%;
+height: 100%;
+background: #62b7d8;
+}
+
+.radiobutton label {
+position: relative;
+display: inline-block;
+/*padding-right: 10px;
+padding-left: 10px;*/
+cursor: pointer;
+  outline: solid 1px rgba(0,0,0,0.5);  
+}
+
+/*cb-Junseihin*/
+.cb-Junseihin {
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 170px;
+  height: 34px;
+  margin-left: 6px;
+}
+
+.cb-Junseihin label {
+  width: 37px;
+height: 16px;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+/*checkbox*/
+.checkbox input[type='checkbox'] {
+position: absolute;
+z-index: -1;
+opacity: 0;
+  
+}
+
+.checkbox label {
+position: relative;
+display: inline-block;
+/*padding-right: 10px;
+padding-left: 10px;*/
+cursor: pointer;
+  outline: solid 1px rgba(0,0,0,0.5);  
+}
+
+.checkbox label::before {
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+display: block;
+/*width: 30px;
+height: 15px;*/
+content: ' ';
+/*border: 2px solid #da3c41;*/
+}
+
+.checkbox input[type='checkbox']:checked + label {
+color: #ffffff;
+}
+
+.checkbox input[type='checkbox']:checked + label::before {
+top: 0;
+width: 100%;
+height: 100%;
+background: #62b7d8;
+}
+
+
+
