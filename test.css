@@ -1,537 +1,895 @@
 :focus {
-  /*outline: none; */
+  outline: none; 
 }
 
 h2 {
-  text-align: center;
   margin: 0;
 }
-.wrapper {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1080px;
+
+body {
   text-align: center;
 }
 
-.area{
+p { 
+  width: 100%;
+  font-size: 15px;
+  text-align: left;
+  margin: 1px;    
+}
+
+span {
+font-size: 16px;
+}
+
+.wrapper {
+  width: 1420px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.inputs-area {
+  display: inline-block;
+  width: 800px;
+  height: 740px;
+  vertical-align: top;
+}
+
+.pic-area{
   display: inline-block;
   width: 520px;
   height: 740px;
   vertical-align: top;
-  border: solid;
+  border: solid 2px rgba(0,0,0,0.7);
+  position: relative;
+  
 }
 
 .pic {
   width: 500px;
 }
 
-.ta-No {
-  resize: none;
-  width:70px;
-  height:80px;
-  font-size: 18px;
-  line-height: 75px;
-  display: inline-block;
-  margin: 0px;
+
+
+.flame {
+  border: solid 1.5px;
 }
 
-.ta-Syareki {
+textarea {
+  vertical-align: bottom;
   resize: none;
-  width:100px;
-  height:30px;
-  font-size: 15px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
+  border: none;
+  background-color: rgba(0,0,0,0);
 }
 
-.ta-Haikiryou {
-  resize: none;
-  width:100px;
-  height:30px;
-  font-size: 15px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Katashiki {
-  resize: none;
-  width:120px;
-  height:30px;
-  font-size: 15px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Syodo {
-  resize: none;
-  width:70px;
-  height:50px;
-  font-size: 15px;
-  line-height: 45px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Syamei {
-  resize: none;
-  width:100px;
-  height:50px;
-  font-size: 15px;
-  line-height: 45px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Keijou {
-  resize: none;
-  width:50px;
-  height:50px;
-  font-size: 15px;
-  line-height: 45px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Grade {
-  resize: none;
-  width:60px;
-  height:50px;
-  font-size: 12px;
-  line-height: 45px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Hyoukaten {
-  resize: none;
-  width:70px;
-  height:50px;
-  font-size: 15px;
-  line-height: 45px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Naisou {
-  resize: none;
-  width:70px;
-  height:30px;
-  font-size: 15px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
+.area-part {
+margin: 5px;
 }
 
 .top {
-  margin-top: 40px;
+display: flex;
+flex-direction: row;
 }
-
-.top-left {
-  width: 80px;
-  display: inline-block;
-}
-
 
 .top-center {
-  width: 330px;
-  display: flexbox;
-  flex-wrap: wrap;
-  font-size: 0;
-  display: inline-block;
-}
-
-.top-right {
-  width: 80px;
-  display: inline-block;
-}
-
-
-
-
-.ta-Syaken {
-  resize: none;
-  width:200px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Soukou {
-  resize: none;
-  width:200px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Gensyoku {
-  resize: none;
-  width: 60px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Irogae {
-  resize: none;
-  width: 60px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-ColorNo {
-  resize: none;
-  width: 80px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Nenryou {
-  resize: none;
-  width: 130px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Naisousyoku {
-  resize: none;
-  width: 70px;
-  height:25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Nenshiki {
-  resize: none;
-  width: 41px;
-  height: 25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-/*
-.ta-Yunyuukubun {
-  resize: none;
-  width: 80px;
-  height: 25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}*/
-
-/*
-.ta-Handle {
-  resize: none;
-  width: 70px;
-  height: 25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-*/
-
-.ta-Shift {
-  resize: none;
-  width: 110px;
-  height: 30px;
-  font-size: 12px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Reibou {
-  resize: none;
-  width: 110px;
-  height: 30px;
-  font-size: 12px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Shinsyaseibitechou {
-  resize: none;
-  width: 110px;
-  height: 35px;
-  font-size: 12px;
-  line-height: 30px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Meigihenkoukigen {
-  resize: none;
-  width: 110px;
-  height: 30px;
-  font-size: 12px;
-  line-height: 25px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Junseihin {
-  resize: none;
-  width: 150px;
-  height: 35px;
-  font-size: 12px;
-  line-height: 30px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Sailspoint {
-  resize: none;
-  width: 150px;
-  height: 90px;
-  font-size: 12px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.second-left {
-  width: 210px;
-  display: flexbox;
-  flex-wrap: wrap;
-  font-size: 0;
-  display: inline-block;
-}
-
-.second-center {
-  width: 120px;
-  display: inline-block;
-}
-
-.second-right {
-  width: 160px;
-  display: inline-block;
+display: flex;
+flex-wrap: wrap;
+width: 585px;
 }
 
 .second {
-  padding: 0px;
-}
-
-
-.ta-Recycle {
-  resize: none;
-  width: 105px;
-  height: 25px;
-  font-size: 10px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Jousyateiin {
-  resize: none;
-  width: 70px;
-  height: 25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Sekisairyou {
-  resize: none;
-  width: 70px;
-  height: 25px;
-  font-size: 12px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Cyuuijikou {
-  resize: none;
-  width: 245px;
-  height: 100px;
-  font-size: 12px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-TourokuNo {
-  resize: none;
-  width: 230px;
-  height: 20px;
-  font-size: 12px;
-  line-height: 15px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-SyadaiNo {
-  resize: none;
-  width: 230px;
-  height: 20px;
-  font-size: 12px;
-  line-height: 15px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-SerialNo {
-  resize: none;
-  width: 230px;
-  height: 20px;
-  font-size: 12px;
-  line-height: 15px;
-  display: inline-block;
-  margin: 0px;
-}
-
-
-.third-left {
-  width: 255px;
-  display: flexbox;
-  flex-wrap: wrap;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.third-right {
-  width: 241px;
-  display: inline-block;
-  vertical-align: top;
+display: flex;
+flex-direction: row;
 }
 
 .third {
-  margin-bottom: 160px;
-}
-
-
-.pic-area {
-  position: relative;
-}
-
-
-.ta-Nagasa {
-  resize: none;
-  width: 75px;
-  height: 20px;
-  font-size: 12px;
-  line-height: 15px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Haba {
-  resize: none;
-  width: 75px;
-  height: 20px;
-  font-size: 12px;
-  line-height: 15px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Takasa {
-  resize: none;
-  width: 75px;
-  height: 20px;
-  font-size: 12px;
-  line-height: 15px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Kibousyuppin {
-  resize: none;
-  width: 225px;
-  height: 140px;
-  font-size: 12px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-KaiinNo {
-  resize: none;
-  width: 250px;
-  height: 35px;
-  font-size: 12px;
-  line-height: 30px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Syuppintenmei {
-  resize: none;
-  width: 250px;
-  height: 35px;
-  font-size: 12px;
-  line-height: 30px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Kiboukakaku {
-  resize: none;
-  width: 250px;
-  height: 35px;
-  font-size: 12px;
-  line-height: 30px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.ta-Startkakaku {
-  resize: none;
-  width: 250px;
-  height: 35px;
-  font-size: 12px;
-  line-height: 30px;
-  display: inline-block;
-  margin: 0px;
-}
-
-.bottom-left {
-  width: 236px;
-  display: flexbox;
-  flex-wrap: wrap;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.bottom-right {
-  width: 260px;
-  display: flexbox;
-  flex-wrap: wrap;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: bottom;
+display: flex;
+flex-direction: row;
 }
 
 .bottom {
-  margin-bottom: 5px;
+display: flex;
+flex-direction: row;
 }
+.No-flame {
+  width: 80px;
+  height: 103px;
+  position: relative;
+}
+
+.ta-No {
+  width: 100%;
+  height: 55%;
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.Syareki-flame {
+width: 160px;
+height: 50px;
+text-align: center;
+position: relative;
+}
+
+.ta-Syareki {
+width: 95%;
+height: 55%;
+font-size: 18px;
+margin: auto;
+position: absolute;
+bottom: 0px;
+left: 2;
+padding-left: 5px;
+}
+
+.Haikiryou-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Haikiryou {
+  width: 95%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.Katashiki-flame {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Katashiki {
+  width: 95%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.Syodo-flame {
+  display: flex;
+  width: 120px;
+  height: 50px;
+  position: relative;
+}
+
+.Syodo-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 0px;
+}
+
+.ta-Syodo {
+  width: 20%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+.Syamei-flame {
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Syamei {
+  width: 95%;
+  height: 55%;
+  font-size: 14px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.Keijou-flame {
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Keijou {
+  width: 95%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 8px;
+}
+
+.Grade-flame {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Grade {
+  width: 95%;
+  height: 55%;
+  font-size: 14px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.Syaken-flame {
+  display: flex;
+  width: 160px;
+  height: 50px;
+  position: relative;
+}
+
+.Syaken-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 15px;
+}
+
+.ta-Syaken {
+  width: 25%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.Soukou-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Soukou {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Sotoiro-ColorNo {
+display: flex;
+flex-direction: row;
+}
+
+.Sotoiro-flame {
+  display: flex;
+  width: 280px;
+  height: 50px;
+  position: relative;
+}
+
+.Sotoiro-box {
+  width: 100%;
+  height: 55%;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.ta-Sotoiro {
+  width: 32%;
+  height: 100%;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+.ColorNo-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-ColorNo {
+  width: 95%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 10px;
+}
+
+.Nenyou-Naisousyoku {
+display: flex;
+flex-direction: row;
+}
+
+.Nenryou-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Nenryou {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Naisousyoku-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Naisousyoku {
+  width: 95%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 10px;
+}
+
+.Nenshiki-Yunyu-Handle {
+display: flex;
+flex-direction: row;
+}
+
+.Nenshiki-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Nenshiki {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Shift-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Shift {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Reibou-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Reibou {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Meigihenkoukigen-flame {
+  display: flex;
+  width: 120px;
+  height: 50px;
+  position: relative;
+}
+
+.Meigihenkoukigen-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 0px;
+}
+
+.ta-Meigihenkoukigen {
+width: 20%;
+height: 100%;
+font-size: 18px;
+margin-left: 8px;
+margin-right: 2px;
+}
+
+.Sailspoint-flame {
+  width: 200px;
+  height: 156px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Sailspoint {
+  width: 100%;
+  height: 80%;
+  font-size: 16px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Recycle-Jousya-Sekisai {
+display: flex;
+flex-direction: row;
+}
+
+.Recycle-flame {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Recycle {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Jousyateiin-flame {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Jousyateiin {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Sekisairyou-flame {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Sekisairyou {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Cyuuijikou-flame {
+  width: 426px;
+  height: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Cyuuijikou {
+  width: 100%;
+  height: 80%;
+  font-size: 16px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.TourokuNo-flame {
+  display: flex;
+  width: 260px;
+  height: 50px;
+  position: relative;
+}
+
+.TourokuNo-box {
+  width: 98%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 4;
+  padding-left: 0px;
+}
+
+.ta-TourokuNo1 {
+width: 44%;
+height: 100%; 
+font-size: 18px;
+padding-left: 6px;
+padding-right: 6px;
+ 
+}
+
+.ta-TourokuNo2 {
+width: 19%;
+height: 100%; 
+font-size: 18px;
+padding-left: 6px;
+padding-right: 6px;
+}
+
+.ta-TourokuNo3 {
+width: 15%;
+height: 100%; 
+font-size: 18px;
+padding-left: 6px;
+padding-right: 6px;
+}
+
+.ta-TourokuNo4 {
+width: 20%;
+height: 100%; 
+font-size: 18px;
+padding-left: 6px;
+padding-right: 6px;
+}
+
+.bar {
+width: 1px;
+height: 80%;
+background-color: black;
+}
+
+.SyadaiNo-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-SyadaiNo {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.SerialNo-flame {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-SerialNo {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Nidainaisun-flame {
+  display: flex;
+  width: 320px;
+  height: 50px;
+  position: relative;
+}
+
+.Nidainaisun-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.ta-Nidainaisun1 {
+  width: 25%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+.ta-Nidainaisun2 {
+width: 25%;
+height: 100%;
+font-size: 18px;
+margin-left: 8px;
+margin-right: 2px;
+}
+
+.ta-Nidainaisun3 {
+width: 25%;
+height: 100%;
+font-size: 18px;
+margin-left: 8px;
+margin-right: 2px;
+}
+
+.Syakensyoujou-flame {
+  display: flex;
+  width: 320px;
+  height: 50px;
+  position: relative;
+}
+
+.Syakensyoujou-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.ta-Syakensyoujou1 {
+  width: 20%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+.ta-Syakensyoujou2 {
+width: 20%;
+height: 100%;
+font-size: 18px;
+margin-left: 8px;
+margin-right: 2px;
+}
+
+.ta-Syakensyoujou3 {
+width: 20%;
+height: 100%;
+font-size: 18px;
+margin-left: 8px;
+margin-right: 2px;
+}
+
+.KaiinNo-flame {
+  display: flex;
+  width: 120px;
+  height: 50px;
+  position: relative;
+}
+
+.KaiinNo-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 0px;
+}
+
+.ta-KaiinNo {
+  height: 100%;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.ta-KaiinNo1 {
+width: 10%;
+}
+
+.ta-KaiinNo1 {
+width: 60%;
+}
+
+.Syuppin-Tantou {
+display: flex;
+flex-direction: row;
+}
+
+.Syuppintenmei-flame {
+  width: 280px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Syuppintenmei {
+  width: 95%;
+  height: 55%;
+  font-size: 15px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.Tantousya-flame {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Tantousya {
+  width: 95%;
+  height: 55%;
+  font-size: 16px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 2;
+  padding-left: 5px;
+}
+
+.Renrakusaki-flame {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.ta-Renrakusaki {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.Kiboukakaku-flame {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  position: relative;
+}
+
+.Kiboukakaku-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 5px;
+}
+
+.ta-Kiboukakaku {
+  width: 40%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+.Startkakaku-flame {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  position: relative;
+}
+
+.Startkakaku-box {
+  width: 100%;
+  height: 55%;
+  font-size: 18px;
+  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 5px;
+}
+
+.ta-Startkakaku {
+  width: 40%;
+  height: 100%;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+
+
+
 
 /*inputted*/
 .No-inputted {
@@ -630,7 +988,15 @@ h2 {
   left: 41px;
 }
 
-.Gensyoku-inputted {
+.Sotoiro-inputted {
+  position: absolute;
+  width: 126px;
+  height: 27px;
+  top: 184px;
+  left: 41px;
+}
+
+/*.Gensyoku-inputted {
   position: absolute;
   width: 65px;
   height: 27px;
@@ -644,7 +1010,7 @@ h2 {
   height: 27px;
   top: 184px;
   left: 106px;
-}
+}*/
 
 .ColorNo-inputted {
   position: absolute;
@@ -890,12 +1256,36 @@ h2 {
   left: 41px;
 }
 
-.TourokuNo-inputted {
+.TourokuNo1-inputted {
   position: absolute;
-  width: 213px;
-  height: 14.5px;
-  top: 261.5px;
-  left: 276px;
+  width: 52px;
+  height: 14px;
+  top: 262px;
+  left: 322px;
+}
+
+.TourokuNo2-inputted {
+  position: absolute;
+  width: 31px;
+  height: 14px;
+  top: 262px;
+  left: 374px;
+}
+
+.TourokuNo3-inputted {
+  position: absolute;
+  width: 32px;
+  height: 14px;
+  top: 262px;
+  left: 405px;
+}
+
+.TourokuNo4-inputted {
+  position: absolute;
+  width: 51px;
+  height: 14px;
+  top: 262px;
+  left: 437px;
 }
 
 .SyadaiNo-inputted {
@@ -914,7 +1304,31 @@ h2 {
   left: 276px;
 }
 
-.Nagasa-inputted {
+.Nidainaisun1-inputted {
+  position: absolute;
+  width: 93px;
+  height: 15px;
+  top: 535px;
+  left: 21px;
+}
+
+.Nidainaisun2-inputted {
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  top: 535px;
+  left: 114px;
+}
+
+.Nidainaisun3-inputted {
+  position: absolute;
+  width: 70px;
+  height: 15px;
+  top: 535px;
+  left: 164px;
+}
+
+.Syakensyoujou1-inputted {
   position: absolute;
   width: 71px;
   height: 17px;
@@ -922,7 +1336,7 @@ h2 {
   left: 21px;
 }
 
-.Haba-inputted {
+.Syakensyoujou2-inputted {
   position: absolute;
   width: 71px;
   height: 17px;
@@ -930,7 +1344,7 @@ h2 {
   left: 92px;
 }
 
-.Takasa-inputted {
+.Syakensyoujou3-inputted {
   position: absolute;
   width: 71px;
   height: 17px;
@@ -956,9 +1370,25 @@ h2 {
 
 .Syuppintenmei-inputted {
   position: absolute;
-  width: 249px;
-  height: 32px;
+  width: 180px;
+  height: 21px;
   top: 605px;
+  left: 239px;
+}
+
+.Tantousya-inputted {
+  position: absolute;
+  width: 69px;
+  height: 21px;
+  top: 605px;
+  left: 419px;
+}
+
+.Renrakusaki-inputted {
+  position: absolute;
+  width: 249px;
+  height: 11px;
+  top: 626px;
   left: 239px;
 }
 
@@ -978,67 +1408,96 @@ h2 {
   left: 239px;
 }
 
+
+
+
+
+
+
 /*rb-2WD4WD*/
 .rb-2WD4WD {
-width: 100%;
-  width: 39px;
-  height: 49px;
+  width: 100%;
+  width: 40px;
+  height: 50px;
   display: inline-block;
   vertical-align: top;
+  border: solid 1.5px;
 }
 
 .rb-2WD4WD label {
   width: 100%;
-height: 50%;
+  height: 50%;
   font-size: 13px;
   line-height: 25px;
 }
 
 /*rb-Yunyuukubun*/
 .rb-Yunyuukubun {
-  width: 100px;
-  height: 24px;
+  width: 150px;
+  height: 50px;
   display: inline-block;
   vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1.5px;
+}
+
+.rb-Yunyuukubun span {
+font-size: 15px;
+width: 100%;
 }
 
 .rb-Yunyuukubun label {
-  width: 50%;
-height: 100%;
-  font-size: 0.3px;
-  line-height: 24px;
+width: 50%;
+height: 50%;
+font-size: 15px;
+line-height: 25px;
 }
 
 /*rb-Handle*/
 .rb-Handle {
-  width: 58px;
-  height: 24px;
-  display: inline-block;
-  vertical-align: top;
+width: 100px;
+height: 50px;
+display: inline-block;
+vertical-align: top;
+display: flex;
+flex-wrap: wrap;
+border: solid 1.5px;
+}
+
+.rb-Handle span {
+font-size: 15px;
+width: 100%;
 }
 
 .rb-Handle label {
-  width: 50%;
-height: 100%;
-  font-size: 18px;
-  line-height: 24px;
+width: 50%;
+height: 50%;
+font-size: 15px;
+line-height: 25px;
 }
 
 /*rb-Shinsyaseibitechou*/
 .rb-Shinsyaseibitechou {
-  width: 108px;
-  height: 35px;
-  display: inline-block;
-  vertical-align: top;
-  display: flex;
-  margin-left: 6px;
+width: 120px;
+height: 50px;
+display: inline-block;
+vertical-align: top;
+display: flex;
+flex-wrap: wrap;
+border: solid 1.5px;
+}
+
+.rb-Shinsyaseibitechou span {
+font-size: 15px;
+width: 100%;
 }
 
 .rb-Shinsyaseibitechou label {
-  width: 50%;
-height: 100%;
-  font-size: 20px;
-  line-height: 35px;
+width: 50%;
+height: 50%;
+font-size: 15px;
+line-height: 25px;
 }
 
 /*radiobutton*/
@@ -1082,19 +1541,19 @@ cursor: pointer;
 
 /*cb-Junseihin*/
 .cb-Junseihin {
-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 170px;
-  height: 34px;
-  margin-left: 6px;
+display: flex;
+flex-wrap: wrap;
+width: 200px;
+height: 50px;
+border: solid 1.5px;
+
 }
 
 .cb-Junseihin label {
-  width: 37px;
-height: 16px;
-  font-size: 10px;
-  line-height: 16px;
+  width: 25%;
+  height: 50%;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 /*checkbox*/
@@ -1102,7 +1561,6 @@ height: 16px;
 position: absolute;
 z-index: -1;
 opacity: 0;
-  
 }
 
 .checkbox label {
@@ -1111,7 +1569,7 @@ display: inline-block;
 /*padding-right: 10px;
 padding-left: 10px;*/
 cursor: pointer;
-  outline: solid 1px rgba(0,0,0,0.5);  
+outline: solid 1px rgba(0,0,0,0.5);  
 }
 
 .checkbox label::before {
@@ -1136,6 +1594,3 @@ width: 100%;
 height: 100%;
 background: #62b7d8;
 }
-
-
-
