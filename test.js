@@ -152,6 +152,71 @@ let array3 = [
   ["ck_AirB", "AirB-inputted", flg_AirB],
 ];
 
+let array4 = [
+  ["ta-No", "ta-Syareki"],
+  ["ta-Syareki", "ta-Haikiryou"],
+  ["ta-Haikiryou", "ta-Katashiki"],
+  ["ta-Katashiki", "ta-Syodo1"],
+  ["ta-Syodo1", "ta-Syodo2"],
+  ["ta-Syodo2", "ta-Syamei"],
+  ["ta-Syamei", "ta-Keijou"],
+  ["ta-Keijou", "ta-Grade"],
+  ["ta-Grade", "ck_2WD"],
+  ["ck_2WD", "ck_4WD"],
+  ["ck_4WD", "ta-Syaken1"],
+  ["ta-Syaken1", "ta-Syaken2"],
+  ["ta-Syaken2", "ta-Soukou"],
+  ["ta-Soukou", "ta-Sotoiro1"],
+  ["ta-Sotoiro1", "ta-Sotoiro2"],
+  ["ta-Sotoiro2", "ta-ColorNo"],
+  ["ta-ColorNo", "ta-Nenryou"],
+  ["ta-Nenryou", "ta-Naisousyoku"],
+  ["ta-Naisousyoku", "ta-Nenshiki"],
+  ["ta-Nenshiki", "ck_Dealer"],
+  ["ck_Dealer", "ck_Heikou"],
+  ["ck_Heikou", "ck_Hidari"],
+  ["ck_Hidari", "ck_Migi"],
+  ["ck_Migi", "ta-Shift"],
+  ["ta-Shift", "ta-Reibou"],
+  ["ta-Reibou", "ck_Ari"],
+  ["ck_Ari", "ck_Nashi"],
+  ["ck_Nashi", "ta-Meigihenkoukigen1"],  
+  ["ta-Meigihenkoukigen1", "ta-Meigihenkoukigen2"],
+  ["ta-Meigihenkoukigen2", "ck_SR"],
+  ["ck_SR", "ck_JunAW"],
+  ["ck_JunAW", "ck_PS"],
+  ["ck_PS", "ck_PW"],
+  ["ck_PW", "ck_Kawa"],
+  ["ck_Kawa", "ck_TV"],
+  ["ck_TV", "ck_Navi"],
+  ["ck_Navi", "ck_AirB"],
+  ["ck_AirB", "ta-Sailspoint"],
+  //["ta-Sailspoint", "ta-Recycle"],
+  ["ta-Recycle", "ta-Jousyateiin"],
+  ["ta-Jousyateiin", "ta-Sekisairyou"],
+  ["ta-Sekisairyou", "ta-Cyuuijikou"],
+  //["ta-Cyuuijikou", "ta-TourokuNo1"],
+  ["ta-TourokuNo1", "ta-TourokuNo2"],
+  ["ta-TourokuNo2", "ta-TourokuNo3"],
+  ["ta-TourokuNo3", "ta-TourokuNo4"],
+  ["ta-TourokuNo4", "ta-SyadaiNo"],
+  ["ta-SyadaiNo", "ta-SerialNo"],
+  ["ta-SerialNo", "ta-Nidainaisun1"],
+  ["ta-Nidainaisun1", "ta-Nidainaisun2"],
+  ["ta-Nidainaisun2", "ta-Nidainaisun3"],
+  ["ta-Nidainaisun3", "ta-Syakensyoujou1"],
+  ["ta-Syakensyoujou1", "ta-Syakensyoujou2"],
+  ["ta-Syakensyoujou2", "ta-Syakensyoujou3"],
+  ["ta-Syakensyoujou3", "ta-KaiinNo1"],
+  ["ta-KaiinNo1", "ta-KaiinNo2"],
+  ["ta-KaiinNo2", "ta-Syuppintenmei"],
+  ["ta-Syuppintenmei", "ta-Tantousya"],
+  ["ta-Tantousya", "ta-Renrakusaki"],
+  ["ta-Renrakusaki", "ta-Kiboukakaku"],
+  ["ta-Kiboukakaku", "ta-Startkakaku"],
+  ["ta-Startkakaku", "ta-No"],
+]
+
 
 function checked(id1, id2) {
   console.log("check");
@@ -279,12 +344,10 @@ function onBlur(id1, id2, id3) {
       obj_flame.style.backgroundColor = 'rgba(0,0,0,0)';
       obj2 = document.querySelectorAll(id);
         if (this.value !== "") {
-          console.log(this.value);
           changeColor1(id2);
         }
         else {
           changeColor3(id2);
-          console.log(this.value);
         }    
     })
   });
@@ -327,6 +390,20 @@ function onBlur3(id1, id2, a) {
   });
 }
 
+function keyDown0(id1, id2) {
+  obj = document.getElementById(id1);
+  obj.addEventListener("keydown", function () {
+    if (event.keyCode == 13) {
+      console.log();
+      obj2 = document.getElementById(id2);
+      event.returnValue = false;
+      obj2.focus();
+    }
+    else {
+      console.log("bb");
+    }
+  });
+}
 
 window.addEventListener('DOMContentLoaded', function(){
   array1.forEach(function(value) { 
@@ -343,7 +420,6 @@ window.addEventListener('DOMContentLoaded', function(){
     id1 = value[0];
     id2 = value[1];
     id_pair = value[2];
-    obj = document.getElementById(id1);
     checked2(id1, id2, id_pair);
     onFocus2(id1, id2);
     onBlur2(id1, id2);
@@ -353,22 +429,57 @@ window.addEventListener('DOMContentLoaded', function(){
     a = index;
     id1 = value[0];
     id2 = value[1];
-    obj = document.getElementById(id1);
     checked3(id1, id2, a);
     onFocus3(id1, id2, a);
     onBlur3(id1, id2, a);
   })
+
+  array4.forEach(function(value) {
+    id1 = value[0];
+    id2 = value[1];
+    keyDown0(id1, id2);
+  })
+
 });
 
 
 
-/*
+	
 
-function keydown(e){
-  if(e.keyCode === 13){
-    var obj = document.activeElement;
-    obj.nextElementSibling.focus();
+/*
+						
+currentFNo = 0;
+function nextForm()
+{
+	if (event.keyCode == 13)
+	{
+		obj = 
+		currentFNo %= document.form1.elements.length;
+		document.form1[currentFNo].focus();
+	}
+}
+window.document.onkeydown = nextForm;*/
+/*
+function focus_test(id2) {
+  if (event.keyCode == 13) {
+    document.getElementById(id2).focus();
+    console.log("aaaa");
+  } 
+  else {
+    console.log("bbbbb");
   }
 }
- 
-window.onkeydown = keydown;*/
+window.document.onkeydown = focus_test("ta-Syareki");*/
+
+/*document.addEventListener("keydown",function (e) { 
+  console.log(e.keyCode);
+  e.preventDefault();
+  e.keyCode = 9;
+  console.log(e.keyCode);
+  document.getElementById("ta-Syareki").dispatchEvent(new KeyboardEvent("keydown",
+  {
+      keyCode: 9
+  }
+  ));
+});*/
+

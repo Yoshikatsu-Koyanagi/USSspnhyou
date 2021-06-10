@@ -63,6 +63,13 @@ textarea {
   background-color: rgba(0,0,0,0);
 }
 
+input {
+vertical-align: bottom;
+resize: none;
+border: none;
+background-color: rgba(0,0,0,0);
+}
+
 .area-part {
 margin: 5px;
 }
@@ -101,11 +108,21 @@ flex-direction: row;
 .ta-No {
   width: 100%;
   height: 55%;
-  font-size: 30px;
-  margin: auto;
+  font-size: 27px;
+  margin-bottom: 20%;
   position: absolute;
   bottom: 0px;
   left: 0;
+}
+
+.ta-No2 {
+width: 100%;
+height: 55%;
+font-size: 25px;
+margin: auto;
+position: absolute;
+bottom: 0px;
+left: 0;
 }
 
 .Syareki-flame {
@@ -742,7 +759,7 @@ margin-right: 2px;
 
 .KaiinNo-flame {
   display: flex;
-  width: 120px;
+  width: 150px;
   height: 50px;
   position: relative;
 }
@@ -750,7 +767,7 @@ margin-right: 2px;
 .KaiinNo-box {
   width: 100%;
   height: 55%;
-  font-size: 18px;
+  font-size: 25px;
   vertical-align: bottom;
   display: flex;
   position: absolute;
@@ -762,16 +779,20 @@ margin-right: 2px;
 .ta-KaiinNo {
   height: 100%;
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 8px;
   margin-right: 0px;
 }
 
 .ta-KaiinNo1 {
-width: 10%;
+width: 15%;
 }
 
-.ta-KaiinNo1 {
+.ta-KaiinNo2 {
 width: 60%;
+}
+
+.KaiinNo-box span {
+font-size: 18px;
 }
 
 .Syuppin-Tantou {
@@ -1413,10 +1434,8 @@ flex-direction: row;
 
 
 
-
 /*rb-2WD4WD*/
 .rb-2WD4WD {
-  width: 100%;
   width: 40px;
   height: 50px;
   display: inline-block;
@@ -1449,7 +1468,6 @@ width: 100%;
 
 .rb-Yunyuukubun label {
 width: 50%;
-height: 50%;
 font-size: 15px;
 line-height: 25px;
 }
@@ -1472,7 +1490,6 @@ width: 100%;
 
 .rb-Handle label {
 width: 50%;
-height: 50%;
 font-size: 15px;
 line-height: 25px;
 }
@@ -1495,7 +1512,6 @@ width: 100%;
 
 .rb-Shinsyaseibitechou label {
 width: 50%;
-height: 50%;
 font-size: 15px;
 line-height: 25px;
 }
