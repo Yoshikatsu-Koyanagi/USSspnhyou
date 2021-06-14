@@ -271,10 +271,15 @@ function checked3(id1, id2, a) {
 
 
 
-
 function checkForm(id) {
   let str = document.getElementById(id).value;
   str2 = str.match(/[0-9]+/g);
+  document.getElementById(id).value = str2;
+}
+
+function checkForm_Syaken(id) {
+  let str = document.getElementById(id).value;
+  str2 = str.match(/[0-9SHR]+/g);
   document.getElementById(id).value = str2;
 }
 
@@ -401,7 +406,6 @@ function keyDown0(id1, id2) {
       obj2.focus();
     }
     else {
-      console.log("bb");
     }
   });
 }
@@ -442,45 +446,4 @@ window.addEventListener('DOMContentLoaded', function(){
   })
 
 });
-
-
-
-	
-
-/*
-						
-currentFNo = 0;
-function nextForm()
-{
-	if (event.keyCode == 13)
-	{
-		obj = 
-		currentFNo %= document.form1.elements.length;
-		document.form1[currentFNo].focus();
-	}
-}
-window.document.onkeydown = nextForm;*/
-/*
-function focus_test(id2) {
-  if (event.keyCode == 13) {
-    document.getElementById(id2).focus();
-    console.log("aaaa");
-  } 
-  else {
-    console.log("bbbbb");
-  }
-}
-window.document.onkeydown = focus_test("ta-Syareki");*/
-
-/*document.addEventListener("keydown",function (e) { 
-  console.log(e.keyCode);
-  e.preventDefault();
-  e.keyCode = 9;
-  console.log(e.keyCode);
-  document.getElementById("ta-Syareki").dispatchEvent(new KeyboardEvent("keydown",
-  {
-      keyCode: 9
-  }
-  ));
-});*/
 
