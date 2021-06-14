@@ -276,14 +276,21 @@ padding-left: 5px;
   position: absolute;
   bottom: 0px;
   left: 0;
-  padding-left: 15px;
 }
 
-.ta-Syaken {
-  width: 25%;
+.ta-Syaken1 {
+  width: 27%;
   height: 100%;
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 8px;
+}
+
+.ta-Syaken2 {
+width: 22%;
+height: 100%;
+font-size: 18px;
+margin-left: 8px;
+padding-left: 5px;
 }
 
 .Soukou-flame {

@@ -34,7 +34,7 @@
                         </div>
                         <div class="Haikiryou-flame flame" id="ta-Haikiryou-flame">
                             <p>排気量</p>
-                            <input type="text" id="ta-Haikiryou" class="ta-Haikiryou" inputmode="numeric">
+                            <input type="text" id="ta-Haikiryou" class="ta-Haikiryou" oninput="checkForm('ta-Haikiryou')" inputmode="numeric">
                         </div>
                         <div class="Katashiki-flame flame" id="ta-Katashiki-flame">
                             <p>型式</p>
@@ -43,9 +43,9 @@
                         <div class="Syodo-flame flame" id="ta-Syodo-flame">
                             <p>初度登録年月</p>
                             <div class="Syodo-box">
-                                <input type="text" id="ta-Syodo1" class="ta-Syodo" maxlength="2" inputmode="numeric">
+                                <input type="text" id="ta-Syodo1" class="ta-Syodo" oninput="checkForm('ta-Syodo1')" maxlength="2" inputmode="numeric">
                                 <span>年</span>
-                                <input type="text" id="ta-Syodo2" class="ta-Syodo" maxlength="2" inputmode="numeric">
+                                <input type="text" id="ta-Syodo2" class="ta-Syodo" oninput="checkForm('ta-Syodo2')" maxlength="2" inputmode="numeric">
                                 <span>月</span>
                             </div>
                         </div>
@@ -75,15 +75,15 @@
                         <div class="Syaken-flame flame" id="ta-Syaken-flame">
                             <p>車検</p>
                             <div class="Syaken-box">
-                                <input type="text" id="ta-Syaken1" class="ta-Syaken" maxlength="2" inputmode="numeric">
+                                <input type="text" id="ta-Syaken1" class="ta-Syaken1" maxlength="3" inputmode="numeric">
                                 <span>年</span>
-                                <input type="text" id="ta-Syaken2" class="ta-Syaken" maxlength="2" inputmode="numeric">
+                                <input type="text" id="ta-Syaken2" class="ta-Syaken2" maxlength="2" oninput="checkForm('ta-Syaken2')" inputmode="numeric">
                                 <span>月</span>
                             </div>
                         </div>
                         <div class="Soukou-flame flame" id="ta-Soukou-flame">
                             <p>走行</p>
-                            <input type="text" id="ta-Soukou" class="ta-Soukou" inputmode="numeric">
+                            <input type="text" id="ta-Soukou" class="ta-Soukou" oninput="checkForm('ta-Soukou')" inputmode="numeric">
                         </div>
                         <div class="Sotoiro-ColorNO">
                             <div class="Sotoiro-flame flame" id="ta-Sotoiro-flame">
@@ -97,7 +97,7 @@
                             </div>
                             <div class="ColorNo-flame flame" id="ta-ColorNo-flame">
                                 <p>カラーNo.</p>
-                                <input type="text" id="ta-ColorNo" class="ta-ColorNo">
+                                <input type="text" id="ta-ColorNo" class="ta-ColorNo" inputmode="numeric">
                             </div>
                         </div>
                         <div class="Nenyou-Naisousyoku">
@@ -188,15 +188,15 @@
                         <div class="Recycle-Jousya-Sekisai">
                             <div class="Recycle-flame flame" id="ta-Recycle-flame">
                                 <p>リサイクル</p>
-                                <input type="text" id="ta-Recycle" class="ta-Recycle" inputmode="numeric">
+                                <input type="text" id="ta-Recycle" class="ta-Recycle" oninput="checkForm('ta-Recycle')" inputmode="numeric">
                             </div>
                             <div class="Jousyateiin-flame flame" id="ta-Jousyateiin-flame">
                                 <p>乗車定員</p>
-                                <input type="text" id="ta-Jousyateiin" class="ta-Jousyateiin" inputmode="numeric">
+                                <input type="text" id="ta-Jousyateiin" class="ta-Jousyateiin" oninput="checkForm('ta-Jousyateiin')" inputmode="numeric">
                             </div>
                             <div class="Sekisairyou-flame flame" id="ta-Sekisairyou-flame">
                                 <p>積載量</p>
-                                <input type="text" id="ta-Sekisairyou" class="ta-Sekisairyou" inputmode="numeric">
+                                <input type="text" id="ta-Sekisairyou" class="ta-Sekisairyou" oninput="checkForm('ta-Sekisairyou')" inputmode="numeric">
                             </div>
                         </div>
                         <div class="Cyuuijikou-flame flame" id="ta-Cyuuijikou-flame">
@@ -219,7 +219,7 @@
                         </div>
                         <div class="SyadaiNo-flame flame" id="ta-SyadaiNo-flame">
                             <p>車台</p>
-                            <input type="text" id="ta-SyadaiNo" class="ta-SyadaiNo" inputmode="numeric">
+                            <input type="text" id="ta-SyadaiNo" class="ta-SyadaiNo" oninput="checkForm('ta-SyadaiNo')" inputmode="numeric">
                         </div>
                         <div class="SerialNo-flame flame" id="ta-SerialNo-flame">
                             <p>シリアルNo.</p>
@@ -234,22 +234,22 @@
                             <p>荷台内寸</p>
                             <div class="Nidainaisun-box">
                                 <span>約</span>
-                                <input type="text" id="ta-Nidainaisun1" class="ta-Nidainaisun1" inputmode="numeric">
+                                <input type="text" id="ta-Nidainaisun1" class="ta-Nidainaisun1" oninput="checkForm('ta-Nidainaisun1')" inputmode="numeric">
                                 <span>×</span>
-                                <input type="text" id="ta-Nidainaisun2" class="ta-Nidainaisun2" inputmode="numeric">
+                                <input type="text" id="ta-Nidainaisun2" class="ta-Nidainaisun1" oninput="checkForm('ta-Nidainaisun2')" inputmode="numeric">
                                 <span>×</span>
-                                <input type="text" id="ta-Nidainaisun3" class="ta-Nidainaisun3" inputmode="numeric">
+                                <input type="text" id="ta-Nidainaisun3" class="ta-Nidainaisun1" oninput="checkForm('ta-Nidainaisun3')" inputmode="numeric">
                             </div>
                         </div>
                         <div class="Syakensyoujou-flame flame" id="ta-Syakensyoujou-flame">
                             <p>車検証上の寸法</p>
                             <div class="Syakensyoujou-box">
                                 <span>長さ</span>
-                                <input type="text" id="ta-Syakensyoujou1" class="ta-Syakensyoujou1" inputmode="numeric">
+                                <input type="text" id="ta-Syakensyoujou1" class="ta-Syakensyoujou1" oninput="checkForm('ta-Syakensyoujou1')" inputmode="numeric">
                                 <span>幅</span>
-                                <input type="text" id="ta-Syakensyoujou2" class="ta-Syakensyoujou2" inputmode="numeric">
+                                <input type="text" id="ta-Syakensyoujou2" class="ta-Syakensyoujou2" oninput="checkForm('ta-Syakensyoujou2')" inputmode="numeric">
                                 <span>高さ</span>
-                                <input type="text" id="ta-Syakensyoujou3" class="ta-Syakensyoujou3" inputmode="numeric">
+                                <input type="text" id="ta-Syakensyoujou3" class="ta-Syakensyoujou3" oninput="checkForm('ta-Syakensyoujou3')" inputmode="numeric">
                             </div>
                         </div>
                     </div>
@@ -259,7 +259,7 @@
                             <div class="KaiinNo-box">
                                 <input type="text" id="ta-KaiinNo1" class="ta-KaiinNo ta-KaiinNo1" maxlength="1" inputmode="numeric">
                                 <span>-</span>
-                                <input type="text" id="ta-KaiinNo2" class="ta-KaiinNo ta-KaiinNo2" maxlength="4" inputmode="numeric">
+                                <input type="text" id="ta-KaiinNo2" class="ta-KaiinNo ta-KaiinNo2" oninput="checkForm('ta-KaiinNo2')" maxlength="4" inputmode="numeric">
                             </div>
                         </div>
                         <div class="Syuppin-Tantou">
@@ -279,14 +279,14 @@
                         <div class="Kiboukakaku-flame flame" id="ta-Kiboukakaku-flame">
                             <p>希望価格</p>
                             <div class="Kiboukakaku-box">
-                                <input type="text" id="ta-Kiboukakaku" class="ta-Kiboukakaku" maxlength="5" inputmode="numeric">
+                                <input type="text" id="ta-Kiboukakaku" class="ta-Kiboukakaku" oninput="checkForm('ta-Kiboukakaku')" maxlength="5" inputmode="numeric">
                                 <span>,000円</span>
                             </div>
                         </div>
                         <div class="Startkakaku-flame flame" id="ta-Startkakaku-flame">
                             <p>スタート価格</p>
                             <div class="Startkakaku-box">
-                                <input type="text" id="ta-Startkakaku" class="ta-Startkakaku" maxlength="5" inputmode="numeric">
+                                <input type="text" id="ta-Startkakaku" class="ta-Startkakaku" oninput="checkForm('ta-Startkakaku')" maxlength="5" inputmode="numeric">
                                 <span>,000円</span>
                             </div>
                         </div>
