@@ -41,16 +41,24 @@ font-size: 16px;
   width: 520px;
   height: 740px;
   vertical-align: top;
-  border: solid 2px rgba(0,0,0,0.7);
   position: relative;
   
 }
 
 .pic {
   width: 500px;
+  outline: solid 2px rgba(0,0,0,0.7);
 }
 
-
+.explanation {
+  width: 180px;
+  margin: auto;
+  text-align: left;
+  margin-top: 10px;
+  height: 120px;
+  border: solid;
+  padding: 10px 50px;
+}
 
 .flame {
   border: solid 1.5px;

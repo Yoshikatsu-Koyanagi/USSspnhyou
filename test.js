@@ -56,60 +56,60 @@ function out_Focus(id1, id2) {
 
 
 let array1 = [
-  ["ta-No", "No-inputted", "ta-No-flame"],
-  ["ta-Syareki", "Syareki-inputted", "ta-Syareki-flame"],
-  ["ta-Haikiryou", "Haikiryou-inputted", "ta-Haikiryou-flame"],
-  ["ta-Katashiki", "Katashiki-inputted", "ta-Katashiki-flame"],
-  ["ta-Syodo", "Syodo-inputted", "ta-Syodo-flame"],
-  ["ta-Syamei", "Syamei-inputted", "ta-Syamei-flame"],
-  ["ta-Keijou", "Keijou-inputted", "ta-Keijou-flame"],
-  ["ta-Grade", "Grade-inputted", "ta-Grade-flame"],
+  ["ta-No", "No-inputted", "ta-No-flame","進む","進む"],
+  ["ta-Syareki", "Syareki-inputted", "ta-Syareki-flame","進む","進む"],
+  ["ta-Haikiryou", "Haikiryou-inputted", "ta-Haikiryou-flame","進む","進む"],
+  ["ta-Katashiki", "Katashiki-inputted", "ta-Katashiki-flame","進む","進む"],
+  ["ta-Syodo", "Syodo-inputted", "ta-Syodo-flame","進む","進む"],
+  ["ta-Syamei", "Syamei-inputted", "ta-Syamei-flame","進む","進む"],
+  ["ta-Keijou", "Keijou-inputted", "ta-Keijou-flame","進む","進む"],
+  ["ta-Grade", "Grade-inputted", "ta-Grade-flame","進む","進む"],
   //["ta-Hyoukaten", "Hyoukaten-inputted"],
   //["ta-Naisou", "Naisou-inputted"],
-  ["ta-Syaken1", "Syaken-inputted", "ta-Syaken-flame"],
-  ["ta-Syaken2", "Syaken-inputted", "ta-Syaken-flame"],
-  ["ta-Soukou", "Soukou-inputted", "ta-Soukou-flame"],
-  ["ta-Sotoiro", "Sotoiro-inputted", "ta-Sotoiro-flame"],
+  ["ta-Syaken1", "Syaken-inputted", "ta-Syaken-flame","進む","進む"],
+  ["ta-Syaken2", "Syaken-inputted", "ta-Syaken-flame","進む","進む"],
+  ["ta-Soukou", "Soukou-inputted", "ta-Soukou-flame","進む","進む"],
+  ["ta-Sotoiro", "Sotoiro-inputted", "ta-Sotoiro-flame","進む","進む"],
   //["ta-Gensyoku", "Gensyoku-inputted"],
   //["ta-Irogae", "Irogae-inputted"],
-  ["ta-ColorNo", "ColorNo-inputted", "ta-ColorNo-flame"],
-  ["ta-Nenryou", "Nenryou-inputted", "ta-Nenryou-flame"],
-  ["ta-Naisousyoku", "Naisousyoku-inputted", "ta-Naisousyoku-flame"],
-  ["ta-Nenshiki", "Nenshiki-inputted", "ta-Nenshiki-flame"],
+  ["ta-ColorNo", "ColorNo-inputted", "ta-ColorNo-flame","進む","進む"],
+  ["ta-Nenryou", "Nenryou-inputted", "ta-Nenryou-flame","進む","進む"],
+  ["ta-Naisousyoku", "Naisousyoku-inputted", "ta-Naisousyoku-flame","進む","進む"],
+  ["ta-Nenshiki", "Nenshiki-inputted", "ta-Nenshiki-flame","進む","進む"],
   //["ta-Yunyuukubun", "Yunyuukubun-inputted"],
   //["ta-Handle", "Handle-inputted"],
-  ["ta-Shift", "Shift-inputted", "ta-Shift-flame"],
-  ["ta-Reibou", "Reibou-inputted", "ta-Reibou-flame"],
+  ["ta-Shift", "Shift-inputted", "ta-Shift-flame","進む","進む"],
+  ["ta-Reibou", "Reibou-inputted", "ta-Reibou-flame","進む","進む"],
   //["ta-Shinsyaseibitechou", "Shinsyaseibitechou-inputted"],
-  ["ta-Meigihenkoukigen", "Meigihenkoukigen-inputted", "ta-Meigihenkoukigen-flame"],
+  ["ta-Meigihenkoukigen", "Meigihenkoukigen-inputted", "ta-Meigihenkoukigen-flame","進む","進む"],
   //["ta-Junseihin", "Junseihin-inputted"],
-  ["ta-Sailspoint", "Sailspoint-inputted", "ta-Sailspoint-flame"],
-  ["ta-Recycle", "Recycle-inputted", "ta-Recycle-flame"],
-  ["ta-Jousyateiin", "Jousyateiin-inputted", "ta-Jousyateiin-flame"],
-  ["ta-Sekisairyou", "Sekisairyou-inputted", "ta-Sekisairyou-flame"],
-  ["ta-Cyuuijikou", "Cyuuijikou-inputted", "ta-Cyuuijikou-flame"],
-  ["ta-TourokuNo1", "TourokuNo1-inputted", "ta-TourokuNo-flame"],
-  ["ta-TourokuNo2", "TourokuNo2-inputted", "ta-TourokuNo-flame"],
-  ["ta-TourokuNo3", "TourokuNo3-inputted", "ta-TourokuNo-flame"],
-  ["ta-TourokuNo4", "TourokuNo4-inputted", "ta-TourokuNo-flame"],
-  ["ta-SyadaiNo", "SyadaiNo-inputted", "ta-SyadaiNo-flame"],
-  ["ta-SerialNo", "SerialNo-inputted", "ta-SerialNo-flame"],
-  ["ta-Nidainaisun1", "Nidainaisun1-inputted", "ta-Nidainaisun-flame"],
-  ["ta-Nidainaisun2", "Nidainaisun2-inputted", "ta-Nidainaisun-flame"],
-  ["ta-Nidainaisun3", "Nidainaisun3-inputted", "ta-Nidainaisun-flame"],
-  ["ta-Syakensyoujou1", "Syakensyoujou1-inputted", "ta-Syakensyoujou-flame"],
-  ["ta-Syakensyoujou2", "Syakensyoujou2-inputted", "ta-Syakensyoujou-flame"],
-  ["ta-Syakensyoujou3", "Syakensyoujou3-inputted", "ta-Syakensyoujou-flame"],
+  ["ta-Sailspoint", "Sailspoint-inputted", "ta-Sailspoint-flame","改行","進む"],
+  ["ta-Recycle", "Recycle-inputted", "ta-Recycle-flame","進む","進む"],
+  ["ta-Jousyateiin", "Jousyateiin-inputted", "ta-Jousyateiin-flame","進む","進む"],
+  ["ta-Sekisairyou", "Sekisairyou-inputted", "ta-Sekisairyou-flame","進む","進む"],
+  ["ta-Cyuuijikou", "Cyuuijikou-inputted", "ta-Cyuuijikou-flame","改行","進む"],
+  ["ta-TourokuNo1", "TourokuNo1-inputted", "ta-TourokuNo-flame","進む","進む"],
+  ["ta-TourokuNo2", "TourokuNo2-inputted", "ta-TourokuNo-flame","進む","進む"],
+  ["ta-TourokuNo3", "TourokuNo3-inputted", "ta-TourokuNo-flame","進む","進む"],
+  ["ta-TourokuNo4", "TourokuNo4-inputted", "ta-TourokuNo-flame","進む","進む"],
+  ["ta-SyadaiNo", "SyadaiNo-inputted", "ta-SyadaiNo-flame","進む","進む"],
+  ["ta-SerialNo", "SerialNo-inputted", "ta-SerialNo-flame","進む","進む"],
+  ["ta-Nidainaisun1", "Nidainaisun1-inputted", "ta-Nidainaisun-flame","進む","進む"],
+  ["ta-Nidainaisun2", "Nidainaisun2-inputted", "ta-Nidainaisun-flame","進む","進む"],
+  ["ta-Nidainaisun3", "Nidainaisun3-inputted", "ta-Nidainaisun-flame","進む","進む"],
+  ["ta-Syakensyoujou1", "Syakensyoujou1-inputted", "ta-Syakensyoujou-flame","進む","進む"],
+  ["ta-Syakensyoujou2", "Syakensyoujou2-inputted", "ta-Syakensyoujou-flame","進む","進む"],
+  ["ta-Syakensyoujou3", "Syakensyoujou3-inputted", "ta-Syakensyoujou-flame","進む","進む"],
   //["ta-Nagasa", "Nagasa-inputted"],
   //["ta-Haba", "Haba-inputted"],
   //["ta-Takasa", "Takasa-inputted"],
-  ["ta-Kibousyuppin", "Kibousyuppin-inputted", "ta-Kibousyuppin-flame"],
-  ["ta-KaiinNo", "KaiinNo-inputted", "ta-KaiinNo-flame"],
-  ["ta-Syuppintenmei", "Syuppintenmei-inputted", "ta-Syuppintenmei-flame"],
-  ["ta-Tantousya", "Tantousya-inputted", "ta-Tantousya-flame"],
-  ["ta-Renrakusaki", "Renrakusaki-inputted", "ta-Renrakusaki-flame"],
-  ["ta-Kiboukakaku", "Kiboukakaku-inputted", "ta-Kiboukakaku-flame"],
-  ["ta-Startkakaku", "Startkakaku-inputted", "ta-Startkakaku-flame"],
+  ["ta-Kibousyuppin", "Kibousyuppin-inputted", "ta-Kibousyuppin-flame","進む","進む"],
+  ["ta-KaiinNo", "KaiinNo-inputted", "ta-KaiinNo-flame","進む","進む"],
+  ["ta-Syuppintenmei", "Syuppintenmei-inputted", "ta-Syuppintenmei-flame","進む","進む"],
+  ["ta-Tantousya", "Tantousya-inputted", "ta-Tantousya-flame","進む","進む"],
+  ["ta-Renrakusaki", "Renrakusaki-inputted", "ta-Renrakusaki-flame","進む","進む"],
+  ["ta-Kiboukakaku", "Kiboukakaku-inputted", "ta-Kiboukakaku-flame","進む","進む"],
+  ["ta-Startkakaku", "Startkakaku-inputted", "ta-Startkakaku-flame","進む","進む"],
 ];
 
 
@@ -132,25 +132,25 @@ let flg_AirB = 0;
 
 
 let array2 = [
-  ["ck_2WD", "twoWD-inputted", "fourWD-inputted"],
-  ["ck_4WD", "fourWD-inputted", "twoWD-inputted"],
-  ["ck_Dealer", "Dealer-inputted", "Heikou-inputted"],
-  ["ck_Heikou", "Heikou-inputted", "Dealer-inputted"],
-  ["ck_Hidari", "Hidari-inputted", "Migi-inputted"],
-  ["ck_Migi", "Migi-inputted", "Hidari-inputted"],
-  ["ck_Ari", "Ari-inputted", "Nashi-inputted"],
-  ["ck_Nashi", "Nashi-inputted", "Ari-inputted"],
+  ["ck_2WD", "twoWD-inputted", "fourWD-inputted", "進む", "進む", "Space: 選択"],
+  ["ck_4WD", "fourWD-inputted", "twoWD-inputted", "進む", "進む", "Space: 選択"],
+  ["ck_Dealer", "Dealer-inputted", "Heikou-inputted", "進む", "進む", "Space: 選択"],
+  ["ck_Heikou", "Heikou-inputted", "Dealer-inputted","進む", "進む", "Space: 選択"],
+  ["ck_Hidari", "Hidari-inputted", "Migi-inputted", "進む", "進む", "Space: 選択"],
+  ["ck_Migi", "Migi-inputted", "Hidari-inputted", "進む", "進む", "Space: 選択"],
+  ["ck_Ari", "Ari-inputted", "Nashi-inputted", "進む", "進む", "Space: 選択"],
+  ["ck_Nashi", "Nashi-inputted", "Ari-inputted", "進む", "進む", "Space: 選択"],
 ];
 
 let array3 = [
-  ["ck_SR", "SR-inputted", flg_SR],
-  ["ck_JunAW", "JunAW-inputted", flg_JunAW],
-  ["ck_PS", "PS-inputted", flg_PS],
-  ["ck_PW", "PW-inputted", flg_PW],
-  ["ck_Kawa", "Kawa-inputted", flg_Kawa],
-  ["ck_TV", "TV-inputted", flg_TV],
-  ["ck_Navi", "Navi-inputted", flg_Navi],
-  ["ck_AirB", "AirB-inputted", flg_AirB],
+  ["ck_SR", "SR-inputted", flg_SR, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_JunAW", "JunAW-inputted", flg_JunAW, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_PS", "PS-inputted", flg_PS, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_PW", "PW-inputted", flg_PW, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_Kawa", "Kawa-inputted", flg_Kawa, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_TV", "TV-inputted", flg_TV, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_Navi", "Navi-inputted", flg_Navi, "進む", "進む", "Space: 選択/選択解除"],
+  ["ck_AirB", "AirB-inputted", flg_AirB, "進む", "進む", "Space: 選択/選択解除"],
 ];
 
 let array4 = [
@@ -283,7 +283,7 @@ function checkForm_Syaken(id) {
   document.getElementById(id).value = str2;
 }
 
-function onFocus(id1, id2, id3) {
+function onFocus(id1, id2, id3,e_c, t_c) {
   id1_ = "." + id1
   obj = document.querySelectorAll(id1_);
   
@@ -299,11 +299,14 @@ function onFocus(id1, id2, id3) {
       obj_flame.style.backgroundColor = 'rgba(255,50,0,0.3)';
       console.log(id2);
       changeColor2(id2);
+
+      comment = "testetset\n\n\n" + id1;
+      explanation1(e_c, t_c);
     })
   });
 }
 
-function onFocus2(id1, id2) {
+function onFocus2(id1, id2, e_c, t_c, s_c) {
   obj = document.getElementById(id1);
   obj.addEventListener("focus", function () {
     id = this.id;
@@ -317,6 +320,7 @@ function onFocus2(id1, id2) {
     else {
       lab_obj.style.backgroundColor = 'rgba(255,50,0,0.3)';
     }
+    explanation2(e_c, t_c, s_c);
   });
 }
 
@@ -333,7 +337,8 @@ function onFocus3(id1, id2, a) {
     }
     else {
       lab_obj.style.backgroundColor = 'rgba(255,50,0,0.3)';
-    } 
+    }
+    explanation3(e_c, t_c, s_c);
   });
 }
 
@@ -415,9 +420,11 @@ window.addEventListener('DOMContentLoaded', function(){
     id1 = value[0];
     id2 = value[1];
     id3 = value[2];
+    e_c = value[3];
+    t_c = value[4]; 
     //func1(id1, id2);
     //func2(id1, id2);
-    onFocus(id1, id2, id3);
+    onFocus(id1, id2, id3, e_c, t_c);
     onBlur(id1, id2, id3);
   })
 
@@ -425,6 +432,7 @@ window.addEventListener('DOMContentLoaded', function(){
     id1 = value[0];
     id2 = value[1];
     id_pair = value[2];
+
     checked2(id1, id2, id_pair);
     onFocus2(id1, id2);
     onBlur2(id1, id2);
@@ -434,8 +442,11 @@ window.addEventListener('DOMContentLoaded', function(){
     a = index;
     id1 = value[0];
     id2 = value[1];
+    e_c = value[3];
+    t_c = value[4];
+    s_c = value[5];
     checked3(id1, id2, a);
-    onFocus3(id1, id2, a);
+    onFocus3(id1, id2, a, e_c, t_c, s_c);
     onBlur3(id1, id2, a);
   })
 
@@ -446,4 +457,85 @@ window.addEventListener('DOMContentLoaded', function(){
   })
 
 });
+
+
+function explanation1(enter_content, tab_content) {
+  let enter = document.getElementById("Enter");
+  let tab = document.getElementById("Tab");
+  let space = document.getElementById("Space");
+  let yajirushi = document.getElementById("Yajirushi");
+  
+  enter.innerHTML = enter_content;
+  tab.innerHTML = tab_content;
+  space.innerHTML = "";
+  yajirushi.innerHTML = "";
+}
+
+function explanation2() {
+  let enter = document.getElementById("Enter");
+  let tab = document.getElementById("Tab");
+  let space = document.getElementById("Space");
+  let yajirushi = document.getElementById("Yajirushi");
+  
+  enter_content = "進む";
+  tab_content = "進む";
+  space_content = "Space: 選択";
+  yajirushi_content = "←↑↓→: 選択変更";
+
+  enter.innerHTML = enter_content;
+  tab.innerHTML = tab_content;
+  space.innerHTML = space_content;
+  yajirushi.innerHTML = yajirushi_content;
+}
+
+function explanation3(enter_content, tab_content, space_content) {
+  let enter = document.getElementById("Enter");
+  let tab = document.getElementById("Tab");
+  let space = document.getElementById("Space");
+  let yajirushi = document.getElementById("Yajirushi");
+  
+  enter.innerHTML = enter_content;
+  tab.innerHTML = tab_content;
+  space.innerHTML = space_content;
+  yajirushi.innerHTML = "";
+}
+
+	
+
+/*
+						
+currentFNo = 0;
+function nextForm()
+{
+	if (event.keyCode == 13)
+	{
+		obj = 
+		currentFNo %= document.form1.elements.length;
+		document.form1[currentFNo].focus();
+	}
+}
+window.document.onkeydown = nextForm;*/
+/*
+function focus_test(id2) {
+  if (event.keyCode == 13) {
+    document.getElementById(id2).focus();
+    console.log("aaaa");
+  } 
+  else {
+    console.log("bbbbb");
+  }
+}
+window.document.onkeydown = focus_test("ta-Syareki");*/
+
+/*document.addEventListener("keydown",function (e) { 
+  console.log(e.keyCode);
+  e.preventDefault();
+  e.keyCode = 9;
+  console.log(e.keyCode);
+  document.getElementById("ta-Syareki").dispatchEvent(new KeyboardEvent("keydown",
+  {
+      keyCode: 9
+  }
+  ));
+});*/
 
